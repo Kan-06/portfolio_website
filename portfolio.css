@@ -1,0 +1,75 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f3;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #4b4a67 0%, #6b6a85 100%);
+    color: #e0e0e5;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    color: black;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(90, 87, 117, 0.4);
+    color: black;
+  }
+  
+  .photo {
+    flex: 1;
+    padding: 0 2rem;
+  }
+  
+  .photo img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .bio {
+    flex: 2;
+    color: #dcdce1;
+    padding-left: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #4b4a67;
+    color: #e0e0e5;
+
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+    }
+  }
+  
